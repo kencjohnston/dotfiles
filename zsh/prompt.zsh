@@ -81,3 +81,6 @@ precmd() {
   set_prompt
 }
 
+if [ -d "/Users/sytse/Dropbox/Repos/www-gitlab-com" ]; then
+  cd /Users/sytse/Dropbox/Repos/www-gitlab-com
+fi
