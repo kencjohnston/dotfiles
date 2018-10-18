@@ -16,6 +16,13 @@ If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
+## before install
+
+1. Install homebrew
+2. Install Zsh via homebrew `brew install zsh`
+3. Not sure if need to run `chsh -s /bin/zsh` to change shell
+4. Change the shell in VScode settings `terminal.integrated.shell` to `/bin/zsh`
+
 ## install
 
 Run this:
