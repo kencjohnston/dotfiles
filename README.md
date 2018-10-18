@@ -26,6 +26,9 @@ cd ~/.dotfiles
 script/bootstrap
 ```
 
+1. GitHub author: dosire
+1. Email: GitLab company email with legal name
+
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
 
@@ -36,6 +39,12 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+## Sid specific
+
+1. Copy SSH private key from password manager to ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub
+2. Set SSH private key permission: `chmod 400 ~/.ssh/id_rsa`
+3. Generate public key: `ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub`
 
 ## topical
 
