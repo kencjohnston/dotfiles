@@ -42,7 +42,7 @@ this script in `bin/`.
 
 ## Sid specific
 
-1. Copy SSH private key from password manager to ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub
+1. Copy SSH private key from password manager to ~/.ssh/id_rsa
 2. Set SSH private key permission: `chmod 400 ~/.ssh/id_rsa`
 3. Generate public key: `ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub`
 
