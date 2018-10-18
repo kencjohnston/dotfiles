@@ -23,6 +23,7 @@ Run this:
 ```sh
 git clone https://gitlab.com/sytses/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
+script/install
 script/bootstrap
 ```
 
