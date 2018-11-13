@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Kenny Johnston
+        email = kjohnston@gitlab.com
 [credential]
         helper = GIT_CREDENTIAL_HELPER
 [alias]

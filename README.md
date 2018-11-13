@@ -1,6 +1,6 @@
 # holman does dotfiles
 
-This is a copy of https://github.com/holman/dotfiles
+This is a copy of https://github.com/sytses/dotfiles, which was itself a copy of https://github.com/holman/dotfiles.
 
 ## dotfiles
 
@@ -28,7 +28,7 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 Run this:
 
 ```sh
-git clone https://gitlab.com/sytses/dotfiles.git ~/.dotfiles
+git clone https://gitlab.com/kencjohnston/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/install
 script/bootstrap
@@ -48,7 +48,7 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
-## Sid specific
+## Kenny specific
 
 1. Copy SSH private key from password manager to ~/.ssh/id_rsa
 2. Set SSH private key permission: `chmod 400 ~/.ssh/id_rsa`
@@ -66,7 +66,7 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
-[Fork it](https://github.com/holman/dotfiles/fork), remove what you don't
+[Fork it](https://github.com/kencjohnston/dotfiles/fork), remove what you don't
 use, and build on what you do use.
 
 ## components
