@@ -21,3 +21,14 @@ alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
 alias gpa="git push origin $1 && git push gh $1 && git push gl $1" # Push GitLab to GitLab dev server, GitHub and GitLab Cloud
 alias gpd="git push origin master && git push deploy master"
+
+# moods
+
+## work moods
+alias gmw="git config --add user.email kenny@gitlab.com; git config--get user.email"
+alias gmwn="git config --add user.email kenny+night@gitlab.com; git config--get user.email"
+alias gmww="git config --add user.email kenny+weekend@gitlab.com; git config--get user.email"
+
+## play moods
+alias gmp="git config --add user.email kencjohnston@gmail.com; git config--get user.email"
+alias gmph="git config --add user.email kencjohnston+happy@gmail.com; git config--get user.email"
